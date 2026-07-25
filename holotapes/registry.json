@@ -960,7 +960,7 @@
     "author": "@Theeohn",
     "version": "1.0.0",
     "description": "One of the most famous single-player card games, now playable on the Pip-Boy!",
-    "icon": "Solitaire/solitaire.png",
+    "icon": "Solitaire/assets/SOLITAIRE.IMG",
     "previews": ["Solitaire/previews/menu.bmp", "Solitaire/previews/game.bmp"],
     "type": "game",
     "readme": "Solitaire/README.md",
