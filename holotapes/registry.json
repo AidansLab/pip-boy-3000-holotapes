@@ -949,7 +949,7 @@
     "storage": [
       {
         "name": "HOLO/SIGNAL_MATCH/APP.JS",
-        "url": "SignalMatch/APP.JS"
+        "url": "SignalMatch/assets/APP.JS"
       }
     ],
     "storageOptional": []

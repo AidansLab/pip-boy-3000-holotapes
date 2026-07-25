@@ -8,6 +8,6 @@
   "previews": ["previews/game01.bmp", "previews/game02.bmp"],
   "type": "game",
   "readme": "README.md",
-  "storage": [{ "name": "HOLO/SIGNAL_MATCH/APP.JS", "url": "APP.JS" }],
+  "storage": [{ "name": "HOLO/SIGNAL_MATCH/APP.JS", "url": "assets/APP.JS" }],
   "storageOptional": []
 }
