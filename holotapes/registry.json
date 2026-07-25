@@ -283,6 +283,24 @@
     ]
   },
   {
+    "id": "magic8ball",
+    "name": "Magic 8 Ball",
+    "author": "@Theeohn @joemto20-tech",
+    "version": "1.0.0",
+    "description": "The classic Magic 8 Ball and all 20 of its responses. Spin/click either wheel or shake your pipboy to get a new response!",
+    "icon": "Magic8BallPlus/assets/8BALL.IMG",
+    "previews": ["Magic8BallPlus/previews/game.bmp"],
+    "type": "game",
+    "readme": "Magic8BallPlus/README.md",
+    "storage": [
+      {
+        "name": "HOLO/MAGIC_8_BALL/APP.JS",
+        "url": "Magic8BallPlus/assets/APP.MIN.JS"
+      }
+    ],
+    "storageOptional": []
+  },
+  {
     "id": "mtgtracker",
     "name": "MTG Life Counter",
     "author": "@tylerjbartlett",
