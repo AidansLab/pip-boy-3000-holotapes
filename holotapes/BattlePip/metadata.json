@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "description": "Place your airships, and blow up the enemies with the fog of war hiding them from you!",
   "icon": "assets/AIRSHIP.IMG",
-  "previews": [],
+  "previews": ["previews/menu.bmp", "previews/game.bmp"],
   "type": "game",
   "readme": "README.md",
   "storage": [

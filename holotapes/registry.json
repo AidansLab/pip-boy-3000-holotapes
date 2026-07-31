@@ -47,7 +47,7 @@
     "version": "1.0.0",
     "description": "Place your airships, and blow up the enemies with the fog of war hiding them from you!",
     "icon": "BattlePip/assets/AIRSHIP.IMG",
-    "previews": [],
+    "previews": ["BattlePip/previews/menu.bmp", "BattlePip/previews/game.bmp"],
     "type": "game",
     "readme": "BattlePip/README.md",
     "storage": [
@@ -364,6 +364,7 @@
   },
   {
     "id": "magic8ballplus",
+    "previousId": "magic8ball",
     "name": "Magic 8 Ball+",
     "author": "@Theeohn @joemto20-tech",
     "version": "1.1.0",
