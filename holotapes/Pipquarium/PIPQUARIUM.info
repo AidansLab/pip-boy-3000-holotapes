@@ -1,0 +1,8 @@
+{
+  "id": "pipquarium",
+  "name": "Pipquarium", 
+  "version": "0.01", 
+  "files": "HOLO/PIPQUARIUM/APP.JS",
+  "src" : "HOLO/PIPQUARIUM/APP.JS",
+  "icon" : "APPINFO/HOLO.IMG"
+}
