@@ -2,9 +2,13 @@
 
 ### Info
 
-**Author(s):**
+**Author:**
 
 - [@CodyTolene](https://github.com/CodyTolene)
+
+**Contributors:**
+
+- [@joemto20-tech](https://github.com/joemto20-tech)
 
 ### Description
 
@@ -18,6 +22,37 @@ players:
 - **VIDEOS** - Watch AVI clips from the `VIDEOS/` folder full screen.
 - **IMAGES** - View images from the `IMAGES/` folder centered on a black
   background.
+
+### Music Player
+
+The **MUSIC** tab is a two-level player:
+
+- Open a **station** (any folder in `MUSIC/`) to see its songs.
+- Pick a **song** to start playing from there, or use **SHUFFLE PLAY ALL** /
+  **PLAY ALL** to play the whole station. Press the playing song again to stop.
+- When a song ends the next one plays automatically (shuffle order is kept when
+  SHUFFLE is on).
+- The right knob adjusts volume.
+
+### Persistent Audio (background playback)
+
+Turn on **PERSISTENT AUDIO** in the music settings menu (long-press the left
+knob). It is **off by default**.
+
+While it is on, the station keeps playing across the terminal's own screens
+**and** after you leave the holotape — the music continues while you browse the
+rest of the Pip-Boy OS, just like the built-in radio. Persistent playback stops
+automatically when you visit the firmware's **Radio** tab, leaving the built-in
+FM radio unaffected.
+
+- A **STOP RADIO** row appears on the media selection menu while music is
+  playing — select it to stop. Turning the toggle off also stops it.
+- Opening the Pip-Boy's built-in **Radio** tab stops it automatically so the FM
+  tuner has the audio to itself and plays normally.
+- Relaunching the terminal while it is playing takes you straight to the media
+  menu with the music still going.
+- The volume you set is kept while it plays in the background.
+- It lives in RAM only, so a reboot or power-off stops it like every other app.
 
 ### Notice
 
@@ -88,7 +123,7 @@ IMAGES/
 - Left knob scroll: Move selection up / down in list
 - Left knob press: Open station / play or stop song / navigate pages
 - Right knob scroll: Adjust volume
-- Left knob long press: Open settings menu (close with another long press)
+- Left knob long press: Open settings menu
 - Select **BACK TO MENU** (top of the station list) to return to the media menu.
 
 **Video player**

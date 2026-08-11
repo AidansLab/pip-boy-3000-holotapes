@@ -985,8 +985,8 @@
   {
     "id": "rcet",
     "name": "RobCo Entertainment Terminal",
-    "author": "@CodyTolene",
-    "version": "2.1.0",
+    "author": "@CodyTolene @joemto20-tech",
+    "version": "2.2.0",
     "description": "A Vault-Tec approved RobCo holotape for playing WAVs from `MUSIC/`, AVI reels from `VIDEOS/`, and images from `IMAGES/`.",
     "icon": "RobCoEntertainmentTerminal/RCET.PNG",
     "previews": [
@@ -1003,6 +1003,10 @@
       {
         "name": "HOLO/RCET/APP.JS",
         "url": "RobCoEntertainmentTerminal/APP.MIN.JS"
+      },
+      {
+        "name": "HOLO/RCET/ENGINE.JS",
+        "url": "RobCoEntertainmentTerminal/assets/ENGINE.MIN.JS"
       },
       {
         "name": "HOLO/RCET/IMAGES.JS",
