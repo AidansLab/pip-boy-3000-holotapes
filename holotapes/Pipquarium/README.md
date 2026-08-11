@@ -1,5 +1,16 @@
 # Pipquarium
 
+### Info
+
+**Author:** Aidan Lee-Calamera (NightmareGoggles on the discord server)
+
+**Website(s):**
+
+- [Personal Site](http://AidansLab.com/)
+- [GitHub](https://github.com/AidansLab)
+
+### Description
+
 A monochrome Pip-Boy remake of Underwater, the fish-tank screensaver bundled
 with Microsoft Plus! for Kids.
 
@@ -8,13 +19,7 @@ bitmaps, extracted from its resources, converted to grayscale, and re-encoded
 as 4bpp images. Everything else (the swim/bob/bubble logic, the
 monochrome conversion, and the holotape wrapper) is new.
 
-## Controls
-
-This is a passive ambient display, like the screensaver it's based on — there
-is nothing to press. Open it and watch the tank; press any mode button to
-leave, same as any other holotape.
-
 ## Credits
 
-- Original fish, ray, seahorse, and coral artwork: *Underwater* screensaver,
-  © 1993-5 Socha Computing, Inc., distributed with Microsoft Plus! for Kids.
+Original fish, ray, seahorse, and coral artwork: *Underwater* screensaver,
+© 1993-5 Socha Computing, Inc., distributed with Microsoft Plus! for Kids.
