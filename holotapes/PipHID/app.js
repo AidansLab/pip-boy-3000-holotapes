@@ -246,7 +246,7 @@
   pollConnect();
 
   return {
-    id: 'PIPHID',
+    id: 'piphid',
     notDefault: true,
     fullscreen: true,
     remove: function () {
