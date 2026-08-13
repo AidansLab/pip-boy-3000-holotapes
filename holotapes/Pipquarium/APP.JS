@@ -141,7 +141,7 @@
   }, 0);
 
   return {
-    id: "PIPQUARIUM",
+    id: "pipquarium",
     notDefault: true,
     fullscreen: true,
     remove: function() {
