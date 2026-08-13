@@ -630,14 +630,14 @@
     "author": "Aidan's Lab",
     "version": "1.0.0",
     "description": "Turns the Pip-Boy into a HID (Human Interface Device) for interacting with a computer, ported from the EXT TERMINAL attachment in the Pip-Boy 3000 Mk V firmware.",
-    "icon": "",
+    "icon": "PipHID/PIPHID.IMG",
     "previews": [],
     "type": "app",
     "readme": "PipHID/README.md",
     "storage": [
       {
         "name": "HOLO/PIPHID/APP.JS",
-        "url": "PipHID/app.min.js"
+        "url": "PipHID/APP.MIN.JS"
       }
     ],
     "storageOptional": []
@@ -666,14 +666,14 @@
     "author": "Aidan's Lab",
     "version": "1.0.0",
     "description": "A Pip-Boy 3000 remake of the classic Windows 95 Plus! for Kids Underwater screensaver, with real fish artwork extracted from the original screensaver.",
-    "icon": "Pipquarium/assets/icon.png",
+    "icon": "Pipquarium/assets/PIPQUARIUM.IMG",
     "previews": [],
     "type": "app",
     "readme": "Pipquarium/README.md",
     "storage": [
       {
         "name": "HOLO/PIPQUARIUM/APP.JS",
-        "url": "Pipquarium/app.min.js"
+        "url": "Pipquarium/APP.MIN.JS"
       },
       {
         "name": "HOLO/PIPQUARIUM/FISHA_L.IMG",

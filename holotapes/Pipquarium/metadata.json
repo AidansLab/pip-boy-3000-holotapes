@@ -4,7 +4,7 @@
   "author": "Aidan's Lab",
   "version": "1.0.0",
   "description": "A Pip-Boy 3000 remake of the classic Windows 95 Plus! for Kids Underwater screensaver, with real fish artwork extracted from the original screensaver.",
-  "icon": "assets/icon.png",
+  "icon": "PIPQUARIUM.IMG",
   "previews": [],
   "type": "app",
   "readme": "README.md",
