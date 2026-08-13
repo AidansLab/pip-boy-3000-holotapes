@@ -80,7 +80,7 @@
   function drawMain() {
     h.clear();
     h.setColor(3).setFontAlign(0, -1);
-    h.setFontMonofonto23().drawString('EXTERNAL TERMINAL', 240, 14);
+    h.setFontMonofonto23().drawString('PipHID', 240, 14);
     h.setColor(1).setFontMonofonto14();
     h.drawString('DATA: SEND KEY     STATS: SELECT KEY', 240, 284);
     h.drawString('HOLD KNOB: KEYBOARD     ITEMS: EXIT', 240, 300);
@@ -205,7 +205,7 @@
   function drawConnecting() {
     h.clear();
     h.setColor(3).setFontAlign(0, -1);
-    h.setFontMonofonto28().drawString('EXTERNAL TERMINAL', 240, 60);
+    h.setFontMonofonto28().drawString('PipHID', 240, 60);
     h.setFontMonofonto23().drawString(
       'Connecting' + ['.  ', '.. ', '...'][connectTicks % 3],
       240,

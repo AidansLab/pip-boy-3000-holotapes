@@ -1,21 +1,24 @@
 (function() {
   const W = h.getWidth(), H = h.getHeight();
-  const CORAL = { aw: 228, ah: 180, bw: 228, bh: 218 };
   const BUBBLE_LEN = 297, BUBBLE_FRAMES = 27;
   const SEAHORSE_HOP = 5, SEAHORSE_RISE = 16, SEAHORSE_TICKS = 4;
-  const SEAHORSE_MOVES = [];
 
-  let IMG = {};
+  // Seahorse path, as flat (dx, dy) pairs: rise, small loop, sink, step left.
+  // Espruino stores arrays as linked lists, so 38 little [dx, dy] arrays cost
+  // well over a hundred variable blocks; this flat one costs a handful.
+  const MOVES = new Int8Array((SEAHORSE_RISE * 2 + 6) * 2);
+  for (let i = 0; i < SEAHORSE_RISE; i++) {
+    MOVES[i * 2 + 1] = -1;
+    MOVES[(SEAHORSE_RISE + 5 + i) * 2 + 1] = 1;
+  }
+  MOVES.set([1, 0, 0, 1, -1, 0, 0, -1, 1, 0], SEAHORSE_RISE * 2);
+  MOVES[(SEAHORSE_RISE * 2 + 5) * 2] = -1;
+
+  let coralA, coralB, bubbleFile;
   let fishes = [];
   let bubbleVents = [];
   let seahorse;
-  let tick = 0;
   let frameInterval;
-
-  for (let i = 0; i < SEAHORSE_RISE; i++) SEAHORSE_MOVES.push([0, -1]);
-  SEAHORSE_MOVES.push([1, 0], [0, 1], [-1, 0], [0, -1], [1, 0]);
-  for (let i = 0; i < SEAHORSE_RISE; i++) SEAHORSE_MOVES.push([0, 1]);
-  SEAHORSE_MOVES.push([-1, 0]);
 
   function drawSeek(file, frameLen, idx, x, y) {
     file.seek(idx * frameLen);
@@ -63,15 +66,15 @@
       if (seahorse.waitTimer <= 0) { seahorse.phase = 0; seahorse.stepTicks = 0; }
       return;
     }
-    const mv = SEAHORSE_MOVES[seahorse.phase];
+    const p = seahorse.phase * 2;
     const step = seahorse.stepTicks === SEAHORSE_TICKS - 1 ? SEAHORSE_HOP - (SEAHORSE_TICKS - 1) : 1;
-    seahorse.x += mv[0] * step;
-    seahorse.y += mv[1] * step;
+    seahorse.x += MOVES[p] * step;
+    seahorse.y += MOVES[p + 1] * step;
     seahorse.stepTicks++;
     if (seahorse.stepTicks >= SEAHORSE_TICKS) {
       seahorse.stepTicks = 0;
       seahorse.phase++;
-      if (seahorse.phase >= SEAHORSE_MOVES.length) {
+      if (seahorse.phase >= (MOVES.length >> 1)) {
         seahorse.phase = -1;
         seahorse.x = seahorse.homeX;
         seahorse.y = seahorse.homeY + SEAHORSE_HOP * SEAHORSE_RISE;
@@ -81,7 +84,6 @@
   }
 
   function onFrame() { "ram";
-    tick++;
     h.clear(0);
 
     stepSeahorse();
@@ -89,8 +91,8 @@
     if (seahorse.anim >= 2) { seahorse.anim = 0; seahorse.frame = (seahorse.frame + 1) % seahorse.frameCount; }
     drawSeek(seahorse.file, seahorse.frameLen, seahorse.frame, seahorse.x, seahorse.y);
 
-    h.drawImage(IMG.coralA, W - CORAL.aw, H - CORAL.ah);
-    h.drawImage(IMG.coralB, 0, H - CORAL.bh);
+    h.drawImage(coralA, W - 228, H - 180);
+    h.drawImage(coralB, 0, H - 218);
 
     for (let i = 0; i < fishes.length; i++) {
       const f = fishes[i];
@@ -106,7 +108,7 @@
       const v = bubbleVents[i];
       v.anim++;
       if (v.anim >= 2) { v.anim = 0; v.frame = (v.frame + 1) % BUBBLE_FRAMES; }
-      drawSeek(IMG.bubbleFile, BUBBLE_LEN, v.frame, v.x, v.y);
+      drawSeek(bubbleFile, BUBBLE_LEN, v.frame, v.x, v.y);
     }
   }
 
@@ -115,9 +117,9 @@
 
   setTimeout(function() {
     E.defrag();
-    IMG.coralA = fs.readFileSync("HOLO/PIPQUARIUM/CORAL_A.IMG");
-    IMG.coralB = fs.readFileSync("HOLO/PIPQUARIUM/CORAL_B.IMG");
-    IMG.bubbleFile = E.openFile("HOLO/PIPQUARIUM/BUBBLE.IMG", "r");
+    coralA = fs.readFileSync("HOLO/PIPQUARIUM/CORAL_A.IMG");
+    coralB = fs.readFileSync("HOLO/PIPQUARIUM/CORAL_B.IMG");
+    bubbleFile = E.openFile("HOLO/PIPQUARIUM/BUBBLE.IMG", "r");
 
     fishes.push(makeFish("HOLO/PIPQUARIUM/FISHA_R.IMG", "HOLO/PIPQUARIUM/FISHA_L.IMG", 1083, 10, 83, 52, 4, 6, 1, 1));
     fishes.push(makeFish("HOLO/PIPQUARIUM/FISHB_R.IMG", "HOLO/PIPQUARIUM/FISHB_L.IMG", 928, 6, 77, 48, 4, 7, 1, -1));
@@ -148,7 +150,7 @@
       if (frameInterval) clearInterval(frameInterval);
       for (let i = 0; i < fishes.length; i++) if (fishes[i].file) fishes[i].file.close();
       if (seahorse && seahorse.file) seahorse.file.close();
-      if (IMG.bubbleFile) IMG.bubbleFile.close();
+      if (bubbleFile) bubbleFile.close();
       Pip.audioStop();
       h.clear();
     }
