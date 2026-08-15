@@ -4,7 +4,8 @@
   "author": "@LlamaYeYe",
   "version": "1.0.0",
   "description": "PIP-CO Idle Frameworks adds a two-minute Pip-Boy screensaver with optional dynamic Mesmetron and Pipquarium idle-provider integration.",
-  "previews": [],
+  "icon": "assets/PIPCOIDLEFRAMEWORKS.IMG",
+  "previews": ["previews/menu.bmp"],
   "type": "app",
   "readme": "README.md",
   "storage": [
