@@ -14,6 +14,17 @@ on:
       - 'prettier.config.cjs'
       - 'tsconfig.json'
 
+  # Also validate after main is updated (sanity check)
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/validate.yml'
+      - '.scripts/metadata.schema.json'
+      - '.scripts/*.ts'
+      - 'holotapes/**'
+      - 'package.json'
+      - 'package-lock.json'
+
 permissions:
   contents: read
 
