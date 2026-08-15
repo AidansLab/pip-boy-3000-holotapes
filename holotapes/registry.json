@@ -489,6 +489,63 @@
     ]
   },
   {
+    "id": "pip-co-idle-frameworks",
+    "name": "PIP-CO Idle Frameworks",
+    "author": "@LlamaYeYe",
+    "version": "1.0.0",
+    "description": "PIP-CO Idle Frameworks adds a two-minute Pip-Boy screensaver with optional dynamic Mesmetron and Pipquarium idle-provider integration.",
+    "previews": [],
+    "type": "app",
+    "readme": "PipCoIdleFrameworks/README.md",
+    "storage": [
+      {
+        "name": "HOLO/FALLOUT_SCREENSAVER/APP.JS",
+        "url": "PipCoIdleFrameworks/assets/APP.MIN.JS"
+      },
+      {
+        "name": "HOLO/FALLOUT_SCREENSAVER/IDLE.JS",
+        "url": "PipCoIdleFrameworks/assets/IDLE.JS"
+      },
+      {
+        "name": "HOLO/FALLOUT_SCREENSAVER/SERVICE.JS",
+        "url": "PipCoIdleFrameworks/assets/SERVICE.JS"
+      },
+      {
+        "name": "HOLO/FALLOUT_SCREENSAVER/BOMBRUN.JS",
+        "url": "PipCoIdleFrameworks/assets/BOMBRUN.JS"
+      },
+      {
+        "name": "HOLO/FALLOUT_SCREENSAVER/BOMB.JS",
+        "url": "PipCoIdleFrameworks/assets/BOMB.JS"
+      },
+      {
+        "name": "HOLO/FALLOUT_SCREENSAVER/CONFIG.JSON",
+        "url": "PipCoIdleFrameworks/assets/CONFIG.JSON"
+      },
+      {
+        "name": "HOLO/FALLOUT_SCREENSAVER/FALLOUT.WAV",
+        "url": "PipCoIdleFrameworks/assets/FALLOUT.WAV"
+      },
+      {
+        "name": "HOLO/FALLOUT_SCREENSAVER/LOGO.BIN",
+        "url": "PipCoIdleFrameworks/assets/LOGO.BIN"
+      },
+      {
+        "name": "HOLO/FALLOUT_SCREENSAVER/MESIDLE.JS",
+        "url": "PipCoIdleFrameworks/assets/MESIDLE.JS"
+      },
+      {
+        "name": "HOLO/FALLOUT_SCREENSAVER/PIPQIDLE.JS",
+        "url": "PipCoIdleFrameworks/assets/PIPQIDLE.JS"
+      },
+      {
+        "name": "HOLO/FALLOUT_SCREENSAVER/TITLE.BIN",
+        "url": "PipCoIdleFrameworks/assets/TITLE.BIN"
+      }
+    ],
+    "storageOptional": []
+  },
+  {
     "id": "startup-animations",
     "name": "PIP-CO Startup Systems",
     "author": "@LlamaYeYe",
