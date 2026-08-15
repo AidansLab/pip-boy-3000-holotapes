@@ -15,11 +15,11 @@ A monochrome Pip-Boy remake of Underwater, the fish-tank screensaver bundled
 with Microsoft Plus! for Kids.
 
 The fish, ray, seahorse, and coral artwork are the original screensaver's own
-bitmaps, extracted from its resources, converted to grayscale, and re-encoded
-as 4bpp images. Everything else (the swim/bob/bubble logic, the
-monochrome conversion, and the holotape wrapper) is new.
+bitmaps, extracted from its resources, converted to grayscale, and re-encoded as
+4bpp images. Everything else (the swim/bob/bubble logic, the monochrome
+conversion, and the holotape wrapper) is new.
 
 ## Credits
 
-Original fish, ray, seahorse, and coral artwork: *Underwater* screensaver,
-© 1993-5 Socha Computing, Inc., distributed with Microsoft Plus! for Kids.
+Original fish, ray, seahorse, and coral artwork: _Underwater_ screensaver, ©
+1993-5 Socha Computing, Inc., distributed with Microsoft Plus! for Kids.

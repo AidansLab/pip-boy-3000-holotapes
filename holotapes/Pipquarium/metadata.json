@@ -9,7 +9,7 @@
   "type": "app",
   "readme": "README.md",
   "storage": [
-    { "name": "HOLO/PIPQUARIUM/APP.JS", "url": "APP.MIN.JS" },
+    { "name": "HOLO/PIPQUARIUM/APP.JS", "url": "assets/APP.MIN.JS" },
     { "name": "HOLO/PIPQUARIUM/FISHA_L.IMG", "url": "assets/FISHA_L.IMG" },
     { "name": "HOLO/PIPQUARIUM/FISHA_R.IMG", "url": "assets/FISHA_R.IMG" },
     { "name": "HOLO/PIPQUARIUM/FISHB_L.IMG", "url": "assets/FISHB_L.IMG" },

@@ -8,6 +8,6 @@
   "previews": ["previews/preview.bmp"],
   "type": "app",
   "readme": "README.md",
-  "storage": [{ "name": "HOLO/PIPHID/APP.JS", "url": "APP.MIN.JS" }],
+  "storage": [{ "name": "HOLO/PIPHID/APP.JS", "url": "assets/APP.MIN.JS" }],
   "storageOptional": []
 }

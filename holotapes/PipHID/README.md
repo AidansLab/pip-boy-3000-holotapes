@@ -11,10 +11,10 @@
 
 ### Description
 
-Turns the Pip-Boy into a USB HID device for a computer,
-a PC, or anything else that takes a USB keyboard. This is a port of the "EXT
-TERMINAL" attachment (`submenuExtTerminal`) from the Pip-Boy 3000 Mk V firmware,
-with a full on-screen keyboard added on top.
+Turns the Pip-Boy into a USB HID device for a computer, a PC, or anything else
+that takes a USB keyboard. This is a port of the "EXT TERMINAL" attachment
+(`submenuExtTerminal`) from the Pip-Boy 3000 Mk V firmware, with a full
+on-screen keyboard added on top.
 
 ### Setup
 
@@ -75,5 +75,5 @@ Each key lights up on the map as it is sent.
 ### Credits
 
 The original implementation is the `submenuExtTerminal` function from The Wand
-Company's Pip-Boy 3000 Mk V firmware. This holotape is a port of that
-code as a Pip-Boy 3000 holotape.
+Company's Pip-Boy 3000 Mk V firmware. This holotape is a port of that code as a
+Pip-Boy 3000 holotape.
