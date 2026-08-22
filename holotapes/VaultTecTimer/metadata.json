@@ -2,7 +2,7 @@
   "id": "vaulttimer",
   "name": "Vault-Tec Timer",
   "author": "@trekker87 @Theeohn",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A countdown timer with customizable alerts, and a stopwatch with lap function.",
   "icon": "assets/VAULTTECTIMER.IMG",
   "previews": [
@@ -19,7 +19,8 @@
       "url": "assets/STOPWATCH.MIN.JS"
     },
     { "name": "HOLO/VAULT_TEC_TIMER/TIMER.JS", "url": "assets/TIMER.MIN.JS" },
-    { "name": "HOLO/VAULT_TEC_TIMER/TITLE.JS", "url": "assets/TITLE.MIN.JS" }
+    { "name": "HOLO/VAULT_TEC_TIMER/TITLE.JS", "url": "assets/TITLE.MIN.JS" },
+    { "name": "HOLO/VAULT_TEC_TIMER/TITLE.BIN", "url": "assets/TITLE.BIN" }
   ],
   "storageOptional": []
 }
