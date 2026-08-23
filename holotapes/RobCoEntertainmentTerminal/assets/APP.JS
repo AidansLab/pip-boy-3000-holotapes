@@ -30,7 +30,7 @@
     sortDir: global.__RCETSort || 1,
     persist: global.__RCETPersist || false,
     // Current app version
-    version: '2.2.1',
+    version: '2.2.2',
     // CFW Persistent Audio Support
     supportedFirmwareVersion: '1.1.6', // Pip-Boy Version
 
