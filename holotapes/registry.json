@@ -854,6 +854,88 @@
     "storageOptional": []
   },
   {
+    "id": "MESMETRON",
+    "name": "Mesmetron",
+    "author": "@Theeohn",
+    "version": "1.0.0",
+    "description": "Screensavers of all kinds rendered locally, no videos. Modular so you can make and add your own!",
+    "icon": "Mesmetron/assets/HYPNO.IMG",
+    "previews": [
+      "Mesmetron/previews/cap1.bmp",
+      "Mesmetron/previews/cap2.bmp",
+      "Mesmetron/previews/cap3.bmp"
+    ],
+    "type": "app",
+    "readme": "Mesmetron/README.md",
+    "storage": [
+      {
+        "name": "HOLO/MESMETRON/APP.JS",
+        "url": "Mesmetron/assets/APP.MIN.JS"
+      },
+      {
+        "name": "HOLO/MESMETRON/assets/MSMR.BIN",
+        "url": "Mesmetron/assets/MSMR.BIN"
+      },
+      {
+        "name": "HOLO/MESMETRON/assets/RC.JSON",
+        "url": "Mesmetron/assets/RC.JSON"
+      },
+      {
+        "name": "HOLO/MESMETRON/assets/ROACH.JSON",
+        "url": "Mesmetron/assets/ROACH.JSON"
+      },
+      {
+        "name": "HOLO/MESMETRON/assets/TITLE.JS",
+        "url": "Mesmetron/assets/TITLE.MIN.JS"
+      },
+      {
+        "name": "HOLO/MESMETRON/assets/bouncer.js",
+        "url": "Mesmetron/assets/bouncer.min.js"
+      },
+      {
+        "name": "HOLO/MESMETRON/assets/burst.js",
+        "url": "Mesmetron/assets/burst.min.js"
+      },
+      {
+        "name": "HOLO/MESMETRON/assets/fireworks.js",
+        "url": "Mesmetron/assets/fireworks.min.js"
+      },
+      {
+        "name": "HOLO/MESMETRON/assets/matrix.js",
+        "url": "Mesmetron/assets/matrix.min.js"
+      },
+      {
+        "name": "HOLO/MESMETRON/assets/ribbon.js",
+        "url": "Mesmetron/assets/ribbon.min.js"
+      },
+      {
+        "name": "HOLO/MESMETRON/assets/shapes.js",
+        "url": "Mesmetron/assets/shapes.min.js"
+      },
+      {
+        "name": "HOLO/MESMETRON/assets/spiral.js",
+        "url": "Mesmetron/assets/spiral.min.js"
+      },
+      {
+        "name": "HOLO/MESMETRON/assets/vortex.js",
+        "url": "Mesmetron/assets/vortex.min.js"
+      },
+      {
+        "name": "HOLO/MESMETRON/assets/warp.js",
+        "url": "Mesmetron/assets/warp.min.js"
+      },
+      {
+        "name": "HOLO/MESMETRON/assets/web.js",
+        "url": "Mesmetron/assets/web.min.js"
+      },
+      {
+        "name": "HOLO/MESMETRON/assets/wild.wav",
+        "url": "Mesmetron/assets/wild.wav"
+      }
+    ],
+    "storageOptional": []
+  },
+  {
     "id": "mtgtracker",
     "name": "MTG Life Counter",
     "author": "@tylerjbartlett",
@@ -1522,9 +1604,9 @@
     "id": "radroachraces",
     "name": "Radroach Races",
     "author": "@Theeohn @CodyTolene",
-    "version": "2.1.0",
+    "version": "2.1.1",
     "description": "A version of the internet famous Horse Race Tests game now for your Pip-boy. Start the game up, choose a map, 5 seconds to place your bets and they're off! Using logic similar to the DVD bouncing logo to race to the mutfruit at the end, who will win? 5 Roaches, 16 seperate tracks. Endless hours of fun watching, betting, and forming your own headcanons!",
-    "icon": "RadroachRaces/previews/RACES.png",
+    "icon": "RadroachRaces/assets/RACES.IMG",
     "previews": [
       "RadroachRaces/previews/menu.bmp",
       "RadroachRaces/previews/game.bmp",
@@ -1535,7 +1617,7 @@
     "storage": [
       {
         "name": "HOLO/RADROACH_RACES/APP.JS",
-        "url": "RadroachRaces/APP.MIN.JS"
+        "url": "RadroachRaces/assets/APP.MIN.JS"
       },
       {
         "name": "HOLO/RADROACH_RACES/BUGLE.WAV",
