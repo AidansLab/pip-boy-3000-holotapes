@@ -873,63 +873,63 @@
         "url": "Mesmetron/assets/APP.MIN.JS"
       },
       {
-        "name": "HOLO/MESMETRON/assets/MSMR.BIN",
+        "name": "HOLO/MESMETRON/MSMR.BIN",
         "url": "Mesmetron/assets/MSMR.BIN"
       },
       {
-        "name": "HOLO/MESMETRON/assets/RC.JSON",
+        "name": "HOLO/MESMETRON/RC.JSON",
         "url": "Mesmetron/assets/RC.JSON"
       },
       {
-        "name": "HOLO/MESMETRON/assets/ROACH.JSON",
+        "name": "HOLO/MESMETRON/ROACH.JSON",
         "url": "Mesmetron/assets/ROACH.JSON"
       },
       {
-        "name": "HOLO/MESMETRON/assets/TITLE.JS",
+        "name": "HOLO/MESMETRON/TITLE.JS",
         "url": "Mesmetron/assets/TITLE.MIN.JS"
       },
       {
-        "name": "HOLO/MESMETRON/assets/bouncer.js",
+        "name": "HOLO/MESMETRON/bouncer.js",
         "url": "Mesmetron/assets/bouncer.min.js"
       },
       {
-        "name": "HOLO/MESMETRON/assets/burst.js",
+        "name": "HOLO/MESMETRON/burst.js",
         "url": "Mesmetron/assets/burst.min.js"
       },
       {
-        "name": "HOLO/MESMETRON/assets/fireworks.js",
+        "name": "HOLO/MESMETRON/fireworks.js",
         "url": "Mesmetron/assets/fireworks.min.js"
       },
       {
-        "name": "HOLO/MESMETRON/assets/matrix.js",
+        "name": "HOLO/MESMETRON/matrix.js",
         "url": "Mesmetron/assets/matrix.min.js"
       },
       {
-        "name": "HOLO/MESMETRON/assets/ribbon.js",
+        "name": "HOLO/MESMETRON/ribbon.js",
         "url": "Mesmetron/assets/ribbon.min.js"
       },
       {
-        "name": "HOLO/MESMETRON/assets/shapes.js",
+        "name": "HOLO/MESMETRON/shapes.js",
         "url": "Mesmetron/assets/shapes.min.js"
       },
       {
-        "name": "HOLO/MESMETRON/assets/spiral.js",
+        "name": "HOLO/MESMETRON/spiral.js",
         "url": "Mesmetron/assets/spiral.min.js"
       },
       {
-        "name": "HOLO/MESMETRON/assets/vortex.js",
+        "name": "HOLO/MESMETRON/vortex.js",
         "url": "Mesmetron/assets/vortex.min.js"
       },
       {
-        "name": "HOLO/MESMETRON/assets/warp.js",
+        "name": "HOLO/MESMETRON/warp.js",
         "url": "Mesmetron/assets/warp.min.js"
       },
       {
-        "name": "HOLO/MESMETRON/assets/web.js",
+        "name": "HOLO/MESMETRON/web.js",
         "url": "Mesmetron/assets/web.min.js"
       },
       {
-        "name": "HOLO/MESMETRON/assets/wild.wav",
+        "name": "HOLO/MESMETRON/wild.wav",
         "url": "Mesmetron/assets/wild.wav"
       }
     ],
